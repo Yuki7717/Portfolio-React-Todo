@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-radius: 1em;
+  border: none;
+  background-color: white;
+  margin-left: 0.5em;
+}
+
+button:hover {
+  background-color: #808080;
+  color: white;
+}
+
+.main-title {
+  background-color: #99ddff;
+  box-shadow: 0px 0px 0px 10px #99ddff;
+  border-radius: 9px;
+  margin: 30px;
+  padding: 0.5em 0.5em 0.5em 2em;
+  width: 400px;
+}
+
+ul {
+  list-style: inside;
+}
+
+.list-row {
+  display: flex;
+  margin-top: 0.5em;
+  align-items: center;
+}
